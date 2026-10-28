@@ -1,0 +1,23 @@
+logs/
+.env
+standalone_admin_password.txt
+
+# Python runtime artifact exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local data cache mappings
+data/
+archive/
+*.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Integrated Development Environment local properties
+.idea/
+.vscode/
